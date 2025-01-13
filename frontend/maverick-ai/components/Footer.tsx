@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p>&copy; 2023 Maverick AI. All rights reserved.</p>
+            <p>&copy; 2025 Maverick AI. All rights reserved.</p>
             <div className="mt-4 md:mt-0">
               <select className="bg-background text-text px-2 py-1 rounded">
                 <option>English</option>
