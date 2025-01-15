@@ -16,7 +16,11 @@ const DataFetcher: React.FC = () => {
                 const data = await response.json();
                 setData(data);
             } catch (error) {
-                setError(error.message);
+                if (error instanceof Error) {
+                    setError(error.message);
+                } else {
+                    setError(String(error));
+                }
                 console.error('Error fetching data:', error);
             }
         };

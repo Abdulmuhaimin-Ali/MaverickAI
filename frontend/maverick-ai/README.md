@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Maverick AI
 
-## Getting Started
+## Trending Stocks
+Identify stocks that are trending based on volume, price movements, or news buzz, helping users catch important market movements early.
 
-First, run the development server:
+## Market Summary and Analysis
+Provide a concise, daily or weekly summary of major stock market movements, top news stories, and potential market impacts, which can save time for busy investors.
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Real-time Data**: Get up-to-the-minute stock data to make informed decisions.
+- **Custom Alerts**: Set up personalized alerts for stock price changes, news updates, and more.
+- **Historical Data Analysis**: Access and analyze historical stock data to identify trends and patterns.
+- **User-friendly Interface**: Navigate easily through a clean and intuitive interface designed for both novice and experienced investors.
+- **News Integration**: Stay updated with the latest news affecting your stocks and the market.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+  ```bash
+  git clone https://github.com/yourusername/maverick-ai.git
+  ```
+2. Navigate to the project directory:
+  ```bash
+  cd maverick-ai
+  ```
+3. Install dependencies:
+  ```bash
+  npm install
+  ```
+4. Start the development server:
+  ```bash
+  npm start
+  ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+1. Open your browser and go to `http://localhost:3000`.
+2. Sign up or log in to your account.
+3. Start exploring trending stocks and market summaries.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For any questions or feedback, please reach out to us at support@maverickai.com.
